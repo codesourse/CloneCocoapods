@@ -19,7 +19,7 @@ do
     if [[ $git_url =~ $strB ]]
     then
     echo $git_url
-    #git clone $git_url
+    git clone $git_url
     else
     echo $line3
     giturl=$(pod ipc spec $line3 |jq -r '.source.git')
