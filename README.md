@@ -14,6 +14,12 @@ https://stedolan.github.io/jq/download/
 
 然后cd 到想存放代码的目录
 
+打开clone.sh  把
+
+path="/Users/your computer user/.cocoapods/repos/master/Specs/"
+
+改成你对应的path
+
 执行
 
 sh ./该shell的目录/clone.sh
